@@ -18,7 +18,7 @@ body
     justify-content: center
 
 h1
-    margin: 4em auto auto auto
+    margin: 4em auto -0.5em auto
     font-size: 3em
 
 .stopwatch
@@ -26,10 +26,14 @@ h1
 
 .buttons
     display: flex
-    margin: -1em auto auto auto
+    margin: -1.2em auto auto auto
     gap: 1.8em
     & > *
         font-size: 2em
         background-color: $javascript-yellow
         border: 3px solid $charcoal
         padding: .2em
+        &:hover
+            background-color: $charcoal
+            color: $javascript-yellow
+            cursor: pointer
