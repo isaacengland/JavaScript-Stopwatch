@@ -1,0 +1,39 @@
+html {
+  background-color: #f7df1e;
+}
+
+body {
+  color: #323330;
+  font-family: arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 4em auto auto auto;
+  font-size: 3em;
+}
+
+.stopwatch {
+  font-size: 4em;
+}
+
+.buttons {
+  display: flex;
+  margin: -1em auto auto auto;
+  gap: 1.8em;
+}
+.buttons > * {
+  font-size: 2em;
+  background-color: #f7df1e;
+  border: 3px solid #323330;
+  padding: 0.2em;
+}/*# sourceMappingURL=styles.css.map */
